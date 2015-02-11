@@ -152,8 +152,8 @@ cp -R $compile_buildpack_dir/logs apache2
 #cp -f $compile_build_dir/public/libct_apache22_agent-4.8.0.46-x64.so apache2/modules
 cp -f $compile_buildpack_dir/conf/workers.properties  apache2/conf
 # -------------------------------libct_apache22 ---------------------------------------
-cd $compile_build_dir/apache2/modules
-chmod uog+rx libct_apache22_agent-4.8.0.46-x64.so
+#cd $compile_build_dir/apache2/modules
+#chmod uog+rx libct_apache22_agent-4.8.0.46-x64.so
 cd $compile_build_dir
 # -------------------------------copying build pack tomcat end-----------------------------------------------------------------
 cp $compile_buildpack_bin/boot.sh .
